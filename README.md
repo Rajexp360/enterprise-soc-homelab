@@ -41,4 +41,9 @@ Currently building the Active Directory environment.
 Confugured internal network
 
 ### Evidence
+<details>
+<summary>📷 Click to view screenshot</summary>
+
 ![Domain Controller](screenshots/01-internal-network-ipv4-config.png)
+</details>
+
