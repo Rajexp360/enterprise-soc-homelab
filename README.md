@@ -35,7 +35,7 @@ Currently building the Active Directory environment.
 - [ ] Detection engineering
 - [ ] Incident investigation
 
-## 1. Configured internal network
+1. Configured internal network
 
 ### Result
 Confugured internal network
@@ -46,4 +46,18 @@ Confugured internal network
 
 ![Domain Controller](screenshots/01-internal-network-ipv4-config.png)
 </details>
+
+
+
+2. AD DS Configuration
+
+## Result
+About to install 
+
+<details>
+<summary>📷 Click to view screenshot</summary>
+
+![Domain Controller](screenshots/02-AD-DS-config-wizard.png)
+</details>
+
 
