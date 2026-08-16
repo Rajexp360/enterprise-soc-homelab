@@ -34,3 +34,10 @@ Currently building the Active Directory environment.
 - [ ] Attack simulation
 - [ ] Detection engineering
 - [ ] Incident investigation
+
+## 1. Configured internal network
+### Result
+Confugured internal network
+### Evidence
+  screenshots/02 - internal-network-ipv4-configuration.png
+ 
