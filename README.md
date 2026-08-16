@@ -36,8 +36,9 @@ Currently building the Active Directory environment.
 - [ ] Incident investigation
 
 ## 1. Configured internal network
+
 ### Result
 Confugured internal network
+
 ### Evidence
-  
- ![Domain Controller](screenshots/02 - internal-network-ipv4-configuration.png)
+![Domain Controller](screenshots/01-internal-network-ipv4-config.png)
