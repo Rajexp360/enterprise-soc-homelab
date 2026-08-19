@@ -41,7 +41,8 @@ The lab was built using Oracle VirtualBox to simulate a small enterprise Windows
 
 The lab consists of a Windows Server acting as the Domain Controller and network services server, with a Windows client connected through an isolated internal network.
 
-![Network Architecture](./architecture/01-network-architecture.jpeg)
+![Network Architecture](../architecture/01-network-architecture.jpeg)
+
 ## 4. Implementation
 
 ### 4.1 Active Directory Domain Controller
