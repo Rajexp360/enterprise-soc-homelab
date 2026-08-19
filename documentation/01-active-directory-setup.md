@@ -2,7 +2,40 @@
 
 ## 1. Objective
 
+The objective of this lab was to build a small enterprise-style Active Directory environment in a virtualized network.
+
+The lab was designed to develop practical skills in:
+
+- Active Directory Domain Services (AD DS)
+- Windows Server administration
+- Domain and user management
+- Privileged account management
+- DHCP and DNS
+- Network Address Translation (NAT)
+- Windows client domain joining
+- PowerShell-based user management
+
+This environment will later serve as the foundation for a SOC monitoring and detection lab using Sysmon and Splunk.
+
 ## 2. Lab Environment
+
+The lab was built using Oracle VirtualBox to simulate a small enterprise Windows environment.
+
+| Component | Role |
+|---|---|
+| Windows Server | Domain Controller / AD DS / DHCP / DNS / RAS |
+| Windows Client | Domain-joined endpoint |
+| Oracle VirtualBox | Virtualization platform |
+| Active Directory | Centralized identity and access management |
+| PowerShell | Bulk Active Directory user creation |
+
+### Network
+
+- Network type: Internal Network
+- Domain: mydomain.com
+- Domain Controller IP: 10.0.2.15
+- Client IP: 172.16.0.1
+- Subnet: 255.255.255.0
 
 ## 3. Network Architecture
 
