@@ -37,7 +37,9 @@ The lab was built using Oracle VirtualBox to simulate a small enterprise Windows
 - Client IP: 172.16.0.1
 - Subnet: 255.255.255.0
 
-## 3. Network Architecture
+The lab consists of a Windows Server acting as the Domain Controller and network services server, with a Windows client connected through an isolated internal network.
+
+![Network Architecture](../01-network-architecture.jpeg)
 
 ## 4. Implementation
 
