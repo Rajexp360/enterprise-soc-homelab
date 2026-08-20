@@ -65,9 +65,17 @@ Configured Windows Server as a Domain Controller and deployed Active Directory D
 ![Active Directory Domain Controller](../screenshots/02-AD-DS-config-wizard.png)
 </details>
 
-### 4.1 Active Directory Domain Controller
-
 ### 4.2 Dedicated Domain Administrator Account
+Created a dedicated administrative account inside a separate `_ADMINS` Organizational Unit and assigned it to the Domain Admins group.
+
+This separates privileged administration from standard user accounts.
+
+<details>
+<summary>View Evidence</summary>
+
+![Dedicated Domain Admin](../screenshots/03-dedicated-domain-admin.png)
+
+</details>
 
 ### 4.3 RAS and NAT
 
