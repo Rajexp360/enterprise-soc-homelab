@@ -88,8 +88,24 @@ Configured Routing and Remote Access (RRAS) with NAT to provide internet connect
 </details>
 
 ### 4.4 DHCP Configuration
+Configured a DHCP scope for the internal lab network to automatically assign IP addresses to client machines.
+
+<details>
+<summary>View Evidence</summary>
+
+![DHCP Configuration](../screenshots/05-dhcp-config.png)
+
+</details>
 
 ### 4.5 Domain Controller Internet Access
+Configured the Domain Controller to access the internet through the lab's network configuration.
+
+<details>
+<summary>View Evidence</summary>
+
+![DC Internet Access](../screenshots/06-dc-internet-access.png)
+
+</details>
 
 ### 4.6 Bulk Active Directory User Creation
 
