@@ -78,6 +78,14 @@ This separates privileged administration from standard user accounts.
 </details>
 
 ### 4.3 RAS and NAT
+Configured Routing and Remote Access (RRAS) with NAT to provide internet connectivity for the internal lab network.
+
+<details>
+<summary>View Evidence</summary>
+
+![RAS NAT Configuration](../screenshots/04-ras-nat-config.png)
+
+</details>
 
 ### 4.4 DHCP Configuration
 
