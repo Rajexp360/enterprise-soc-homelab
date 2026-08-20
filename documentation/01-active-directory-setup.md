@@ -50,6 +50,21 @@ The lab consists of a Windows Server acting as the Domain Controller and network
 
 ## 4. Implementation
 
+4.1 Active Directory Domain Controller
+
+Configured Windows Server as a Domain Controller and deployed Active Directory Domain Services (AD DS) for the lab domain.
+
+**Key configuration:**
+- Domain Controller: Windows Server
+- Domain: mydomain.com
+- IP Address: 10.0.2.15
+
+<details>
+<summary>View Evidence</summary>
+
+![Active Directory Domain Controller](../screenshots/02-AD-DS-config-wizard.png)
+</details>
+
 ### 4.1 Active Directory Domain Controller
 
 ### 4.2 Dedicated Domain Administrator Account
