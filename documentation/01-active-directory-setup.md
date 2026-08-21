@@ -124,6 +124,7 @@ Configured IP routing and interface gateway settings to ensure internal subnet t
 <summary>View Evidence</summary>
 
 ![Default Gateway Configuration](../screenshots/08-configuring-default-gateway-for-client-computers.png)
+![Default Gateway Configuration](../screenshots/08-default-gateway.png)
 
 </details>
 
@@ -134,7 +135,9 @@ Joined the Windows client endpoint to the Active Directory domain, verifying pro
 <details>
 <summary>View Evidence</summary>
 
-![Windows Client Domain Join](../screenshots/09-client-domain-join.png)`)*
+
+![Windows Client Domain Join](../screenshots/09-client-domain-join.png)
+![Windows Client Domain Joined](../screenshots/09-client-domain-joined.png)
 
 </details>
 
