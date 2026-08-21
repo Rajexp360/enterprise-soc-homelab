@@ -108,8 +108,24 @@ Configured the Domain Controller to access the internet through the lab's networ
 </details>
 
 ### 4.6 Bulk Active Directory User Creation
+Automated the creation of enterprise user accounts using a PowerShell script to simulate a realistic organizational structure with distinct Organizational Units (OUs), security groups, and tiered access levels.
+
+<details>
+<summary>View Evidence</summary>
+
+![Bulk AD Users](../screenshots/07-bulk-ad-users.png)
+
+</details>
 
 ### 4.7 Default Gateway Configuration
+Configured IP routing and interface gateway settings to ensure internal subnet traffic properly routes through the virtual network perimeter interface.
+
+<details>
+<summary>View Evidence</summary>
+
+![Default Gateway Configuration](../screenshots/08-configuring-default-gateway-for-client-computers.png)
+
+</details>
 
 ### 4.8 Windows Client Domain Join
 
