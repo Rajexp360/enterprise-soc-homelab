@@ -42,6 +42,13 @@ Currently building the Active Directory environment.
 * Internal Network Subnet: 172.16.0.0/24
 * Client Endpoint: Windows 10 Enterprise (Domain-joined)
 * Virtualization: VMware Workstation Pro
+  
+<details>
+<summary>View Evidence</summary>
+
+![Network Topology](architecture/01-network-architecture.jpeg)
+
+</details>
 
 
 ## Lab Modules & Documentation
