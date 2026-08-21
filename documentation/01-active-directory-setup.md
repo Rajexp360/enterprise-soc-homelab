@@ -134,10 +134,7 @@ Joined the Windows client endpoint to the Active Directory domain, verifying pro
 
 <details>
 <summary>View Evidence</summary>
-
-
-![Windows Client Domain Join](../screenshots/09-client-domain-join.png)
-![Windows Client Domain Joined](../screenshots/09-client-domain-joined.png)
+ ![Windows Client Domain Joined](../screenshots/09-creating-vmware-network.png)
 
 </details>
 
