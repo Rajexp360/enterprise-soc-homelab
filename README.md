@@ -26,8 +26,8 @@ Currently building the Active Directory environment.
 
 - [x] GitHub repository created
 - [x] Project documentation structure created
-- [ ] Active Directory deployment
-- [ ] Windows client configuration
+- [x] Active Directory deployment
+- [x] Windows client configuration
 - [ ] Sysmon deployment
 - [ ] Splunk deployment
 - [ ] Log forwarding
@@ -36,5 +36,20 @@ Currently building the Active Directory environment.
 - [ ] Incident investigation
 
 
+## Network Topology & Environment
 
+* Domain Controller (DC): Windows Server 2022 (AD DS, DNS, DHCP, RRAS NAT)
+* Internal Network Subnet: 172.16.0.0/24
+* Client Endpoint: Windows 10 Enterprise (Domain-joined)
+* Virtualization: VMware Workstation Pro
+
+
+## Lab Modules & Documentation
+
+| Module | Topic | Status | Link |
+| :--- | :--- | :--- | :--- |
+| 01 | Active Directory Domain Services (AD DS) & Network Setup | Completed | [View Documentation](documentation/01-active-directory-setup.md) |
+| 02 | Telemetry Ingestion & Endpoint Monitoring (Sysmon) | Pending | *Upcoming* |
+| 03 | SIEM Deployment & Log Forwarding (Splunk) | Pending | *Upcoming* |
+| 04 | Adversary Emulation & Attack Detection | Pending | *Upcoming* |
 
