@@ -127,7 +127,16 @@ Configured IP routing and interface gateway settings to ensure internal subnet t
 
 </details>
 
+
 ### 4.8 Windows Client Domain Join
+Joined the Windows client endpoint to the Active Directory domain, verifying proper DNS resolution, Kerberos authentication handshakes, and baseline Group Policy inheritance from the Domain Controller.
+
+<details>
+<summary>View Evidence</summary>
+
+![Windows Client Domain Join](../screenshots/09-client-domain-join.png)`)*
+
+</details>
 
 ## 5. Verification
 
