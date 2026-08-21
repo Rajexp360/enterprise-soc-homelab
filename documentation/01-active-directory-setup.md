@@ -134,14 +134,31 @@ Joined the Windows client endpoint to the Active Directory domain, verifying pro
 
 <details>
 <summary>View Evidence</summary>
- ![Windows Client Domain Joined](../screenshots/09-creating-vmware-network.png)
+ 
+ ![Windows Client Domain Joined](../screenshots/09-creating-vmware-network.png).
 
 </details>
 
 ## 5. Verification
+* **DNS Resolution:** Verified bidirectional DNS name resolution between the Domain Controller and joined client endpoints via `nslookup`.
+* **DHCP Lease Allocation:** Confirmed dynamic IPv4 address assignment and scope options (default gateway, DNS servers) on client interfaces.
+* **Domain Authentication:** Successfully authenticated onto the workstation using provisioned Active Directory test accounts.
+
 
 ## 6. Security Relevance
+* **Centralized Identity & Access Management (IAM):** Establishes the authoritative directory service required to enforce Least Privilege and Role-Based Access Control (RBAC).
+* **High-Fidelity Log Source:** Domain Controllers generate critical Windows Security event logs (e.g., Event IDs 4624/4625 for logons, 4720 for user creation, 4672 for special privileges assigned) required for SIEM ingestion and SOC monitoring.
+* **Simulated Attack Surface:** Creates a baseline enterprise target environment to later simulate and detect attacks such as Kerberoasting, AS-REP Roasting, and lateral movement.
 
-## 7. Problems Encountered
+## 7. Problems Encountered & Troubleshooting
+* **DNS Resolution Failure During Domain Join:**
+  * *Issue:* The client machine failed the domain join attempt because it defaulted to public DNS rather than the local Domain Controller.
+  * *Resolution:* Statically configured the client network adapter's primary DNS to point directly to the Domain Controller IP address before re-attempting the join.
+* **Internal Routing & NAT Isolation:**
+  * *Issue:* The internal lab machines initially lacked internet access through the Domain Controller's routing interface.
+  * *Resolution:* Reconfigured Routing and Remote Access (RRAS) NAT properties and verified internal switch mapping to route outbound traffic properly.
 
 ## 8. Lessons Learned
+* **DNS is Fundamental to Active Directory:** Kerberos authentication and domain operations rely entirely on proper SRV records and domain DNS health.
+* **Network Segmentation & Routing:** Setting up dual-homed routing (NAT via RRAS) reinforced the importance of isolating internal enterprise networks while managing controlled egress.
+* **Automation Efficiency:** Leveraging scripts for bulk directory object creation eliminates configuration drift and scales administrative workflows.
